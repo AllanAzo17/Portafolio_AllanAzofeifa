@@ -64,6 +64,9 @@ public class ProductoServiceImpl implements ProductoService {
     public List<Producto> metodoNativo(double precioInf, double precioSup) {
         return productoDao.metodoNativo(precioInf, precioSup);
     }
+    //Lista de productos con consulta por medio del rango de precio y su disponibilidad tarea 4
+   
+
     
     
 }
