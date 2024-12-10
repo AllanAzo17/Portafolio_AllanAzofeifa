@@ -5,8 +5,8 @@
 package TiendaAllanAzofeifa.demo.controller;
 
 import TiendaAllanAzofeifa.demo.domain.Categoria;
-import TiendaAllanAzofeifa.demo.Service.CategoriaService;
-import TiendaAllanAzofeifa.demo.impl.FirebaseStorageServiceImpl;
+import TiendaAllanAzofeifa.demo.service.CategoriaService;
+import TiendaAllanAzofeifa.demo.service.impl.FirebaseStorageServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

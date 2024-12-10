@@ -1,15 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
-package TiendaAllanAzofeifa.demo.dao;
+package TiendaAllanAzofeifa.demo.service;
 
 import TiendaAllanAzofeifa.demo.domain.Usuario;
 import java.util.List;
 
+
 public interface UsuarioService {
     
-     // Se obtiene un listado de usuarios en un List
+    // Se obtiene un listado de usuarios en un List
     public List<Usuario> getUsuarios();
     
     // Se obtiene un Usuario, a partir del id de un usuario
@@ -33,6 +30,5 @@ public interface UsuarioService {
     
     // Se elimina el usuario que tiene el id pasado por parámetro
     public void delete(Usuario usuario);
-    
     
 }

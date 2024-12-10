@@ -4,8 +4,8 @@
  */
 package TiendaAllanAzofeifa.demo.controller;
 
-import TiendaAllanAzofeifa.demo.Service.FirebaseStorageService;
-import TiendaAllanAzofeifa.demo.dao.UsuarioService;
+import TiendaAllanAzofeifa.demo.service.FirebaseStorageService;
+import TiendaAllanAzofeifa.demo.service.UsuarioService;
 import TiendaAllanAzofeifa.demo.domain.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

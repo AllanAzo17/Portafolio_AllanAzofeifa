@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package TiendaAllanAzofeifa.demo.impl;
+package TiendaAllanAzofeifa.demo.service.impl;
 
 import TiendaAllanAzofeifa.demo.domain.Rol;
 import TiendaAllanAzofeifa.demo.domain.Usuario;
-import TiendaAllanAzofeifa.demo.Service.UsuarioDetailsService;
+import TiendaAllanAzofeifa.demo.service.UsuarioDetailsService;
 import TiendaAllanAzofeifa.demo.dao.UsuarioDao;
 import jakarta.servlet.http.HttpSession;
 import java.util.ArrayList;

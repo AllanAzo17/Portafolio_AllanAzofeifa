@@ -5,9 +5,9 @@
 package TiendaAllanAzofeifa.demo.controller;
 
 import TiendaAllanAzofeifa.demo.domain.Producto;
-import TiendaAllanAzofeifa.demo.Service.CategoriaService;
-import TiendaAllanAzofeifa.demo.Service.ProductoService;
-import TiendaAllanAzofeifa.demo.impl.FirebaseStorageServiceImpl;
+import TiendaAllanAzofeifa.demo.service.CategoriaService;
+import TiendaAllanAzofeifa.demo.service.ProductoService;
+import TiendaAllanAzofeifa.demo.service.impl.FirebaseStorageServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
